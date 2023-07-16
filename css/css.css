@@ -1,0 +1,878 @@
+html * {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+	background-color: rgb(229, 230, 229);
+	background-size: 100% 100%;
+}
+
+.homebutton {
+	height: 0;
+	padding-bottom: 56.25%;
+	position: relative;
+	width: 100%;
+}
+
+.homebutton .background {
+	height: 102%;
+	width: 100%;
+	position: absolute;
+	opacity: 100%;
+}
+
+/*
+.nav{
+	position: absolute;
+	width: 100%;
+	height:8%;
+	z-index: 999;
+}
+
+.box{
+	float: left;
+	margin-left: 8%;
+	margin-top: 1.5%;
+	font-size: 1vw;
+}
+
+.box a{
+	text-decoration: none;
+	color: aliceblue;
+	font-size: 1vw;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.box a:hover{
+	color:rgb(222, 54, 66);
+	font-size: 7%;
+}
+*/
+
+
+/*  nav */
+
+.about_nav{
+	position: absolute;
+	width:2%;
+	height:5%;
+	top:3%;
+	left:8%;
+	z-index: 999;
+}
+
+.about_nav a{
+	font-size: 2vw;
+	text-decoration: none;
+	color: aliceblue;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	
+}
+
+.about_nav a:hover{
+	color: brown;
+}
+
+.news_nav{
+	position: absolute;
+	width:2%;
+	height:5%;
+	top:3%;
+	left:35%;
+	z-index: 999;
+}
+
+.news_nav a{
+	font-size: 2vw;
+	text-decoration: none;
+	color: aliceblue;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	
+}
+
+.news_nav a:hover{
+	color: brown;
+}
+
+.bus_nav{
+	position: absolute;
+	width:2%;
+	height:5%;
+	top:3%;
+	left:23%;
+	z-index: 999;
+}
+
+.bus_nav a{
+	font-size: 2vw;
+	text-decoration: none;
+	color: aliceblue;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	
+}
+
+.bus_nav a:hover{
+	color: brown;
+}
+
+.travel_nav{
+	position: absolute;
+	width:2%;
+	height:5%;
+	top:3%;
+	left:48%;
+	z-index: 999;
+}
+
+.travel_nav a{
+	font-size: 2vw;
+	text-decoration: none;
+	color: aliceblue;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	
+}
+
+.travel_nav a:hover{
+	color: brown;
+}
+
+
+
+
+/* 
+.leftbar{
+	position: absolute;
+	width:50%;
+	height:30%;
+	top:70%;
+	left:0;
+	background-color: aliceblue;
+	opacity: 4%;
+}
+*/
+
+
+.overview{
+	position: absolute;
+	width:20%;
+	height:20%;
+	top:71%;
+	left:2%;
+	font-size: 100%;
+	color: rgb(251, 251, 251);
+
+}
+
+
+
+.overview1{
+	position: absolute;
+	width:40%;
+	height:20%;
+	top: 60%;
+	left:5%;
+}
+
+.overview1 img{
+	width:100%;
+}
+
+
+.logo22{
+	position: absolute;
+	width:20%;
+	height:10%;
+	top:-2%;
+	left:75%;
+}
+
+.logo22 img{
+	width:100%;
+
+}
+
+
+
+
+/*gif*/
+.gif{
+	position: absolute;
+	width:7.5%;
+	height: 15%;
+	left:86%;
+	top:-3%;
+	z-index: 999;
+}
+
+.gif img{
+	width:100%;
+	height:100%;
+}
+
+.gif2{
+	position: absolute;
+	width:10%;
+	height: 20%;
+	left:74%;
+	top:82%;
+	z-index: 999;
+	transition:16s;
+}
+
+.gif2 img{
+	width:100%;
+}
+
+.gif2:hover{
+	left:2%;
+}
+
+.click1{
+	position: absolute;
+	width:4%;
+	height:5%;
+	top:1.5%;
+	left:4%;
+}
+
+.click1 img{
+	width:100%;
+}
+
+.click2{
+	position: absolute;
+	width:4%;
+	height:5%;
+	top:1.5%;
+	left:31.3%;
+}
+
+.click2 img{
+	width:100%;
+}
+
+.click3{
+	position: absolute;
+	width:4%;
+	height:5%;
+	top:1.5%;
+	left:19%;
+}
+
+.click3 img{
+	width:100%;
+}
+
+.click4{
+	position: absolute;
+	width:4%;
+	height:5%;
+	top:1.5%;
+	left:44%;
+}
+
+.click4 img{
+	width:100%;
+}
+
+
+/*
+.homebutton .nav {
+	background-color: rgba(78, 77, 77, 0.417);
+	height: 102%;
+	width: 16%;
+	left: 0;
+	top: 0;
+	position: absolute;
+}
+
+.homebutton .nav .box {
+	height: 8%;
+	padding-left: 20%;
+	line-height: 440%;
+	font-size: 80%;
+	margin-top: 44%;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+.box:hover {
+	background-color: rgba(198, 198, 198, 0.555);
+}
+
+.box a {
+	margin: 0% auto;
+	color: aliceblue;
+	text-decoration: none;
+	font-size: 170%;
+	text-align: center;
+}
+
+.box a:hover {
+	color: black;
+}
+*/
+
+.homebutton .personal {
+	position: absolute;
+	left: 95%;
+}
+
+.personal img {
+	width: 80%;
+}
+
+/* about us*/
+.homebutton .usbox {
+	position: absolute;
+	width: 80%;
+	height: 80%;
+	top: 13%;
+	left: 10%;
+	background-color: rgb(119, 118, 118);
+}
+
+.usbox img{
+	width:100%;
+}
+
+
+.explore{
+	position: absolute;
+	width:9%;
+	height:7%;
+	background-color: aliceblue;
+	top:51%;
+	left:84.5%;
+	border-radius: 13px;
+	z-index: 999;
+
+}
+
+.explore_link{
+	position: absolute;
+	width:9%;
+	height:7%;
+	top:52.5%;
+	left:84.5%;
+	z-index: 1000;
+}
+
+
+.explore_link a{
+	text-decoration: none;
+	margin-left: 14%;
+	color: rgb(85, 85, 85);
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 2vw;
+}
+
+.explore_link a:hover{
+	color: rgb(198, 54, 73);
+}
+
+.explore2{
+	position: absolute;
+	width:9%;
+	height:7%;
+	top:52%;
+	left:85%;
+	border-radius: 13px;
+	border:solid 1px white;
+	
+}
+
+/*
+.point1{
+	position: absolute;
+	width:2%;
+	height:2%;
+	top:64%;
+	left:45%;
+	z-index: 999;
+	font-size: 400%;
+}
+
+.point2{
+	position: absolute;
+	width:2%;
+	height:2%;
+	top:64%;
+	left:46.6%;
+	z-index: 999;
+	font-size: 400%;
+	color: rgb(111, 111, 111);
+}
+*/
+
+
+/* index font */
+
+.title {
+	position: absolute;
+	/*font-size: 260%;*/
+	font-size: 4.5vw;
+	left: 64%;
+	top: 15%;
+	font-weight: bold;
+	color: rgb(255, 254, 254);
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+
+.title2{
+	position: absolute;
+	/*font-size: 700%;*/
+	font-size: 10vw;
+	left: 38%;
+	top: 23%;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+
+
+.name{
+	position: absolute;
+	/*font-size: 80%;*/
+	font-size: 1vh;
+	left: 64%;
+	top: 44%;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+
+.name1{
+	position: absolute;
+	width:30%;
+	height:6%;
+	left: 64%;
+	top: 25%;
+}
+
+
+.name1 img{
+	width:120%;
+}
+
+
+
+/*  deco 7180*/
+.d{
+	position: absolute;
+	width:30%;
+	height:5%;
+	top:52.5%;
+	left:38.8%;
+	color: aliceblue;
+	font-size: 2vw;
+}
+
+.e{
+	position: absolute;
+	width:30%;
+	height:5%;
+	top:52.5%;
+	left:41.3%;
+	color: aliceblue;
+	font-size: 2vw;
+}
+
+.c{
+	position: absolute;
+	width:30%;
+	height:5%;
+	top:52.5%;
+	left:43.6%;
+	color: aliceblue;
+	font-size: 2vw;
+}
+
+.o{
+	position: absolute;
+	width:30%;
+	height:5%;
+	top:52.5%;
+	left:45.9%;
+	color: aliceblue;
+	font-size: 2vw;
+}
+
+.seven{
+	position: absolute;
+	width:30%;
+	height:5%;
+	top:52.7%;
+	left:53.1%;
+	color: aliceblue;
+	font-size: 2vw;
+}
+
+.one{
+	position: absolute;
+	width:30%;
+	height:5%;
+	top:52.8%;
+	left:55.5%;
+	color: aliceblue;
+	font-size: 2vw;
+}
+
+.eight{
+	position: absolute;
+	width:30%;
+	height:5%;
+	top:52.9%;
+	left:57.7%;
+	color: aliceblue;
+	font-size: 2vw;
+}
+
+.zero{
+	position: absolute;
+	width:30%;
+	height:5%;
+	top:53%;
+	left:60.2%;
+	color: aliceblue;
+	font-size: 2vw;
+}
+
+
+
+.reference{
+	position: absolute;
+	width:3%;
+	height:5%;
+	top: 94%;
+	left:85%;
+	z-index: 999;
+}
+
+.reference img{
+	width:100%;
+}
+
+.reference a img:hover{
+	background-color: rgb(185, 48, 66);
+}
+
+.login{
+	position: absolute;
+	width:3%;
+	height:5%;
+	top: 94.2%;
+	left:92%;
+	z-index: 999;
+}
+
+.login img{
+	width:85%;
+}
+
+.login a img:hover{
+	background-color: rgb(185, 48, 66);
+}
+
+.newstitle {
+	position: absolute;
+	font-size: 230%;
+	left: 30%;
+	top: 8%;
+	font-weight: bold;
+	color: rgb(0, 0, 0);
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+/*mouse */
+.mouse{
+	
+	position: absolute;
+	width:100%;
+	height:100%;
+	left:0%;
+	top:0%;
+}
+
+
+
+.newsinf {
+	position: absolute;
+	height: 87%;
+	width: 95%;
+	background-color: rgba(231, 233, 231, 0.538);
+	top: 10%;
+	left: 2%;
+	overflow: auto;
+}
+
+.brisnews {
+	width: 100%;
+	height: 100%;
+}
+
+.travelbox {
+	position: absolute;
+	height: 80%;
+	width: 76%;
+	background-color: rgba(231, 233, 231, 0.538);
+	top: 12%;
+	left: 13%;
+
+}
+
+.travelbox img {
+	height: 100%;
+	width: 100%;
+}
+
+
+
+#map {
+	height: 100%;
+	width: 100%;
+
+}
+
+.setting img {
+	position: absolute;
+	height: 5.5%;
+	top: 1%;
+	left: 92%;
+}
+
+
+.navigation {
+	position: absolute;
+	display: inline-block;
+	background-color: rgb(223, 223, 223);
+	color: rgb(88, 88, 88);
+	text-decoration: none;
+	border: none;
+	border-radius: 5%;
+	padding: 1% 2%;
+	top: 30%;
+	left: 85.4%;
+	z-index: 999;
+}
+
+.navigation:hover {
+	color: aliceblue;
+	background-color: rgb(56, 56, 56);
+}
+
+.searchbar {
+	position: absolute;
+	top: 30.2%;
+	left: 74.7%;
+	z-index: 999;
+	width: 10%;
+	height: 5%;
+}
+
+.mark img {
+	position: absolute;
+	width: 7.5%;
+	top: 28.4%;
+	left: 77.8%;
+	z-index: 999;
+}
+
+.attraction_information {
+	width: 100%;
+	height: 100%;
+}
+
+.backtoroute img {
+	position: absolute;
+	width: 4%;
+	top: 17%;
+	left: 91%;
+	z-index: 999;
+}
+
+
+.newsinf ul {
+	height: 100%;
+}
+
+.newsinf ul li {
+	height: 20%;
+	line-height: 440%;
+	text-align: left;
+	padding-left: 3%;
+	font-size: 120%;
+	background-color: rgba(186, 187, 187, 0.76);
+	border: solid 1px #ccc;
+
+}
+
+.newsinf ul li a {
+	text-decoration: none;
+	color: rgb(48, 48, 48);
+}
+
+.newsinf i {
+	float: right;
+	padding-right: 2%;
+	color: rgb(0, 0, 0);
+
+}
+
+.newsinf ul li:hover {
+	background-color: rgb(160, 160, 160);
+}
+
+.homebutton .routelist {
+	width: 30%;
+	height: 90%;
+	position: absolute;
+	left: 3%;
+	top: 5%;
+	background-color: #ccc;
+	overflow: auto;
+}
+
+.routelist img {
+	width: 100%;
+}
+
+.homebutton .routemap {
+	width: 56%;
+	height: 90%;
+	position: absolute;
+	background-color: #ccc;
+	left: 39%;
+	top: 5%;
+}
+
+.routemap img {
+	width: 100%;
+}
+
+.homebutton .back1 img {
+	position: absolute;
+	width: 4%;
+	left: 90%;
+	top: 6%;
+}
+
+/*  bus map api */
+
+.busmap {
+	position: absolute;
+	width: 8%;
+	height: 10%;
+	left: 89.5%;
+	top: 12%;
+	z-index: 1000;
+}
+
+.busmap img {
+	width: 50%;
+}
+
+.busmap a :hover {
+	width: 80%;
+}
+
+.clicktomap {
+	position: absolute;
+	width: 10%;
+	height: 10%;
+	left: 88.3%;
+	top: 7%;
+	z-index: 999;
+	color: aliceblue;
+}
+
+
+.timetable_click{
+	position:absolute;
+	width:8%;
+	height:5%;
+	left:90%;
+	top:12%;
+}
+
+.timetable_click img{
+	width:100%;	
+}
+
+.timetable_click img:hover{
+	width:120%;
+}
+
+
+.gocard_shop{
+	position:absolute;
+	width:8%;
+	height:5%;
+	left:90%;
+	top:22%;
+}
+
+.gocard_shop img{
+	width:100%;	
+}
+
+.gocard_shop img:hover{
+	width:120%;
+}
+
+
+
+
+.busmap2{
+	position: absolute;
+	width: 8%;
+	height: 14%;
+	left: 93%;
+	top: 2%;
+	z-index: 1000;
+}
+
+.busmap2 img{
+	width:50%;
+}
+
+.clicktomap2{
+	position: absolute;
+	width: 10%;
+	height: 10%;
+	left: 87%;
+	top: 3%;
+	z-index: 999;
+	color: aliceblue;
+}
+
+/* bus game */
+
+.gamebox {
+	position: absolute;
+	height: 90%;
+	width: 90%;
+	background-color: rgba(231, 233, 231, 0.538);
+	top: 5%;
+	left: 5%;
+}
+
+/* reference */
+.refer{
+	position: absolute;
+	width:70%;
+	height:60%;
+	left:15%;
+	top:6%;
+}
+
+.refer img{
+	width:100%;
+}
+
